@@ -1,4 +1,7 @@
 {
   "name": "my-turborepo-yarn",
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "workspaces": [
+    "packages/*"
+  ]
 }
